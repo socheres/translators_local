@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-03-18 21:10:33"
+	"lastUpdated": "2018-03-26 10:54:14"
 }
 
 /*
@@ -90,6 +90,7 @@ function ALLCaps(name) {
 }
 
 function scrape(doc, url) {
+	
 	var item = new Z.Item('journalArticle');
 	item.title = ZU.xpathText(doc, '//b[contains(text(), "Title:")]/following-sibling::text()[1]');
 	var subtitle = ZU.xpathText(doc, '//b[contains(text(), "Subtitle:")]/following-sibling::text()[1]');
@@ -128,6 +129,7 @@ function scrape(doc, url) {
 	var journalTitle = ZU.xpathText(doc, '//b[contains(text(), "Journal:")]/following-sibling::a[1]');
 	if (journalTitle) {
 		item.journalTitle = journalTitle;
+		item.ISSN = journalTitle;
 	}
 	var volume = ZU.xpathText(doc, '//b[contains(text(), "Volume:")]/following-sibling::a[1]');
 	if (volume) {
@@ -149,9 +151,9 @@ function scrape(doc, url) {
 	if (doi) {
 		item.DOI = doi;
 	}
-	var abstractNote = ZU.xpathText(doc, '//b[contains(text(), "Abstract :")]/following-sibling::text()[1]');
+	var abstractNote = ZU.xpathText(doc, '//b[contains(text(), "Abstract :")]/following-sibling::text()|//b[contains(text(), "Abstract :")]/following-sibling::i', '', '');
 	if (abstractNote) {
-		item.abstractNote = abstractNote;
+		item.abstractNote = ZU.superCleanString(abstractNote);
 	}
 	//TODO: item.ISSN
 	
@@ -163,6 +165,7 @@ function scrape(doc, url) {
 	});
 	item.complete();
 }
+
 
 
 
