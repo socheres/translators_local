@@ -314,7 +314,7 @@ var journalMapping = {
 	"1861-5813" : "!281289085!", // Online - Heidelberg Journal of Religions on the Internet
 	"1867-4240" : "!343626896!", // Transformierte Buddhismen
 	"1583-0039" : "!281222681!", // Journal for the Study of Religions and Ideologies
-	"2294-6209" : "!014398974!", // Byzantion
+	"2294-6209" : "!377157538!", // Byzantion
 	"1468-2400" : "!094641951!", // International journal of systematic theology !!eppn
 	"1463-1652" : "!094641951!", // International journal of systematic theology
 	"14631652" : "!094641951!", // International journal of systematic theology
@@ -381,8 +381,8 @@ var journalMapping = {
 	"00088080" : "!266819001!", // The catholic historical review
 	"0008-8080" : "!266819001!", // The catholic historical review
 	"0024-6964" : "!015195600!", // Louvain Studies
-	"13549901" : "!04851618X!", // Studies in world christianity !!pppn
-	"1354-9901" : "!04851618X!", // Studies in world christianity !!pppn
+	"13549901" : "!27388431X!", // Studies in world christianity !!pppn
+	"1354-9901" : "!27388431X!", // Studies in world christianity !!pppn
 	"1323-6377" : "!064449815!", // Uniting Church Studies
 	"0023-9054, 1703-8804" : "!256979642!", // Laval théologique et philosophiqueLaval théologique et philosophique
 	"0023-9054" : "!256979642!", // Laval théologique et philosophiqueLaval théologique et philosophique
@@ -524,7 +524,7 @@ var journalMapping = {
 	"1467-9647" : "!098253379!", // Teaching theology & religion
 	"13684868" : "!098253379!", // Teaching theology & religion
 	"1768-9260" : "!11277668X!", // Revue d'Etudes Augustiniennes et Patristiques
-	"0080-2654" : "!014429837!", // Revue Théologique de Louvain
+	"1783-8401" : "!379064863!", // Revue Théologique de Louvain
 	"0316-5345" : "!015183734!", // Science et Esprit
 	"1097-6566" : "!112178723!", // Stone-Campbell journal
 	"2295-3019" : "!015198510!", // Studia Canonica
@@ -534,7 +534,7 @@ var journalMapping = {
 	"0169-7536" : "!016204123!", // Zeitschrift für Dialektische Theologie
 	"0270-2533" : "!273890433!", // Trinity Seminary Review
 	"0254-4407" : "!014429802!", // Zwingliana
-	"1520-7307" : "!064449823!", // The Southern Baptist Journal of Theology
+	"1520-7307" : "!415645301!", // The Southern Baptist Journal of Theology
 	"2031-5929" : "!065483006!", // Annali di Scienze Religiose
 	"0034-673X, 2211-4866" : "!257192638!", // Review of Religious Research
 	"0034-673X" : "!257192638!", // Review of Religious Research
@@ -742,6 +742,8 @@ var journalMapping = {
 	"2385-2062" : "!281200165!", // Biblica
 	"0006-0887" : "!281200165!", // Biblica
 	"2565-7070" : "!281200165!", // Biblica
+	"0035-1784" : "!41048640X!", // Revue de théologie et de philosophie
+	
 	
 };
 
@@ -919,7 +921,7 @@ var issnLangMapping = {
 	"1359-1835" : "eng", // Journal of material culture
 	"1460-3586" : "eng", // Journal of material culture
 	"1904-8181" : "dan", // Religionsvidenskabeligt Tidsskrift
-	
+	"1783-8401" : "fre", // Revue Théologique de Louvain
 
 
 
@@ -1289,7 +1291,8 @@ var issnPhysicalFormMapping = {
 	"1052-150X" : "A", // Business ethics quarterly !!pppn
 	"2153-3326" : "A", // Business ethics quarterly !!eppn
 	"10942076, 23255404" : "O", // Near Eastern archaeology !!pppn
-	"13549901" : "A", // Studies in world christianity !!pppn
+	"13549901" : "O", // Studies in world christianity !!pppn
+	"1354-9901" : "O", // Studies in world christianity !!pppn
 	"1355-8358" : "A", // Theology & sexuality !!pppn
 	"1363-013X" : "A", // Quaker studies !!pppn
 	"1363-013X" : "A", // Quaker studies !!eppn
@@ -1316,7 +1319,7 @@ var issnPhysicalFormMapping = {
 	"1867-4240" : "O", // Transformierte Buddhismen
 	"1583-0039" : "O", // Journal for the Study of Religions and Ideologies
 	"0360-6503" : "A", // Process studies
-	"2294-6209" : "A", // Byzantion
+	"2294-6209" : "O", // Byzantion
 	"0361-0160" : "O", // The Sixteenth Century Journal
 	"03610160" : "O", // The Sixteenth Century Journal
 	"0038-8610" : "A", // Concordia Theological Quarterly
@@ -1487,7 +1490,7 @@ var issnPhysicalFormMapping = {
 	"2055-7973, 2055-7981" : "O", // British Catholic 
 	"1467-9647" : "O", // Teaching theology & religion
 	"1768-9260" : "A", // Revue d'Etudes Augustiniennes et Patristiques
-	"0080-2654" : "A", // Revue Théologique de Louvain
+	"1783-8401" : "O", // Revue Théologique de Louvain
 	"0316-5345" : "A", // Science et Esprit
 	"1097-6566" : "A", // Stone-Campbell journal
 	"2295-3019" : "A", // Studia Canonica
@@ -1498,7 +1501,7 @@ var issnPhysicalFormMapping = {
 	"0270-2533" : "O", // Trinity Seminary Review
 	"02702533" : "O", // Trinity Seminary Review
 	"0254-4407" : "A", // Zwingliana
-	"1520-7307" : "A", // The Southern Baptist Journal of Theology
+	"1520-7307" : "O", // The Southern Baptist Journal of Theology
 	"2031-5929" : "A", // Annali di Scienze Religiose
 	"0034-673X, 2211-4866" : "O", // Review of Religious Research
 	"1468-5906" : "O", // Journal for the Scientific Study of Religion
@@ -1675,6 +1678,7 @@ var issnPhysicalFormMapping = {
 	"2385-2062" : "O", // Biblica
 	"0006-0887" : "O", // Biblica
 	"2565-7070" : "O", // Biblica
+	"0035-1784" : "O", // Revue de théologie et de philosophie
 	
 	
 	
@@ -1741,7 +1745,7 @@ var issnLicenceFieldMapping = {
 	"0018-215X" : "l", // Hispania Sacra
 	"1011-7601" : "l", // Journal for the Study of Religion
 	"2589-3998" : "l", // Yearbook of ritual and liturgical studies
-
+	"1520-7307" : "l", // The Southern Baptist Journal of Theology
 	
 
 	
