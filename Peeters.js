@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-03-26 10:54:14"
+	"lastUpdated": "2018-03-26 14:32:27"
 }
 
 /*
@@ -90,7 +90,6 @@ function ALLCaps(name) {
 }
 
 function scrape(doc, url) {
-	
 	var item = new Z.Item('journalArticle');
 	item.title = ZU.xpathText(doc, '//b[contains(text(), "Title:")]/following-sibling::text()[1]');
 	var subtitle = ZU.xpathText(doc, '//b[contains(text(), "Subtitle:")]/following-sibling::text()[1]');
@@ -129,7 +128,7 @@ function scrape(doc, url) {
 	var journalTitle = ZU.xpathText(doc, '//b[contains(text(), "Journal:")]/following-sibling::a[1]');
 	if (journalTitle) {
 		item.journalTitle = journalTitle;
-		item.ISSN = journalTitle;
+	//	item.ISSN = journalTitle;
 	}
 	var volume = ZU.xpathText(doc, '//b[contains(text(), "Volume:")]/following-sibling::a[1]');
 	if (volume) {
