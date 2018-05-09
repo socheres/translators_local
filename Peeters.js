@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-03-27 05:23:49"
+	"lastUpdated": "2018-05-09 09:27:30"
 }
 
 /*
@@ -95,7 +95,7 @@ function getValue(nodes) {
 			value += part.textContent.trim();
 		}
 	}
-	return value;
+	return value.replace(/\<i\>/g, '').replace(/\<\/i\>/g, '');
 }
 
 
@@ -107,7 +107,7 @@ function scrape(doc, url) {
 	var subtitleNodes = ZU.xpath(doc, '//b[contains(text(), "Subtitle:")]/following-sibling::node()');
 	var subtitle = getValue(subtitleNodes);
 	if (subtitle) {
-		item.title += ': ' + subtitle;
+		item.title = ZU.unescapeHTML(item.title += ': ' + subtitle);
 	}
 	
 	// e.g. Author(s): HANDAL, Boris , WATSON, Kevin , ..., VAN DER MERWE, W.L.
@@ -134,7 +134,8 @@ function scrape(doc, url) {
 	item.date = ZU.xpathText(doc, '//b[contains(text(), "Date:")]/following-sibling::text()[1]');
 	item.pages = ZU.xpathText(doc, '//b[contains(text(), "Pages:")]/following-sibling::text()[1]');
 	item.DOI = ZU.xpathText(doc, '//b[contains(text(), "DOI:")]/following-sibling::text()[1]');
-	item.abstractNote = ZU.xpathText(doc, '//b[contains(text(), "Abstract :")]/following-sibling::text()[1]');
+	item.abstractNote = ZU.xpathText(doc, '//b[contains(text(), "Abstract :")]/following-sibling::text()|//b[contains(text(), "Abstract :")]/following::i', '', '');
+	item.ISSN = ZU.xpathText(doc, '//b[contains(text(), "Journal:")]/following-sibling::a[1]');
 	
 	item.attachments.push({
 		url: url,
@@ -547,7 +548,7 @@ var testCases = [
 		"items": [
 			{
 				"itemType": "journalArticle",
-				"title": "The Unedited <i>Life</i> of St John Chrysostom by Nicetas David the Paphlagonian:  <i>Editio princeps</i> , Part I",
+				"title": "The Unedited Life of St John Chrysostom by Nicetas David the Paphlagonian: Editio princeps , Part I",
 				"creators": [
 					{
 						"creatorType": "author",
@@ -561,7 +562,7 @@ var testCases = [
 				"libraryCatalog": "Peeters",
 				"pages": "1-67",
 				"publicationTitle": "Byzantion",
-				"shortTitle": "The Unedited <i>Life</i> of St John Chrysostom by Nicetas David the Paphlagonian",
+				"shortTitle": "The Unedited Life of St John Chrysostom by Nicetas David the Paphlagonian",
 				"volume": "87",
 				"attachments": [
 					{
@@ -574,6 +575,11 @@ var testCases = [
 				"seeAlso": []
 			}
 		]
+	},
+	{
+		"type": "web",
+		"url": "http://poj.peeters-leuven.be/content.php?url=issue&journal_code=BYZ&issue=0&vol=87",
+		"items": "multiple"
 	}
 ]
 /** END TEST CASES **/
