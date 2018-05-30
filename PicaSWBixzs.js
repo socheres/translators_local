@@ -1,7 +1,7 @@
 {
 	"translatorID": "2edf7a1b-eded-48d7-ae11-7126fd1c1b07",
 	"label": "PicaSWB",
-	"creator": "Philipp Zumstein, Timotheus Kim",
+	"creator": "Philipp Zumstein, Timotheus Kim, Mario Trojan",
 	"target": "txt",
 	"minVersion": "3.0",
 	"maxVersion": "",
