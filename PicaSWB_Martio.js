@@ -2237,11 +2237,6 @@ var JournalTitleLanguageMapping = {
 var defaultSsgNummer = "1";
 var defaultLanguage = "eng";
 //lokaldatensatz z.B. \\n6700 !372049834!\\n6700 !37205241X!\\n6700 !372053025!\\n6700!37205319X!
-var lokaldatensatz = '\\nE* l01\\n7100$jn\\n8002 ixzs;ixzo");\napplication.activeWindow.pressButton("Enter");\n\n';
-var maschinell =  '$aixzom$bAutor maschinell zugeordnet\\n';
-var insertCommand = 'application.activeWindow.command("e", false);\n';
-var insertText = 'application.activeWindow.title.insertText("';
-var insert = insertCommand + insertText;
 
 //item.type --> 0500 Bibliographische Gattung und Status
 //http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
