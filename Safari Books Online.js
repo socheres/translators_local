@@ -1,15 +1,15 @@
 {
 	"translatorID": "ec491fc2-10b1-11e3-99d7-1bd4dc830245",
-	"translatorType": 4,
 	"label": "Safari Books Online",
 	"creator": "Jeffrey Jones",
 	"target": "^https?://([^/]+\\.)?safaribooksonline\\.[a-zA-Z]+/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 150,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 09:40:05"
 }
 
 /*

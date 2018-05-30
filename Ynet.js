@@ -1,15 +1,15 @@
 {
 	"translatorID": "7f45c3f9-e387-4589-9679-225ddcf6f00e",
-	"translatorType": 4,
 	"label": "Ynet",
 	"creator": "Eran Rosenthal",
 	"target": "^https?://www\\.ynet\\.co\\.il/articles/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-23 01:15:00"
+	"lastUpdated": "2017-06-17 15:34:41"
 }
 
 /**

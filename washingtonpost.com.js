@@ -1,15 +1,15 @@
 {
 	"translatorID": "d1bf1c29-4432-4ada-8893-2e29fc88fd9e",
-	"translatorType": 4,
 	"label": "washingtonpost.com",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.washingtonpost\\.com/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-25 21:25:00"
+	"lastUpdated": "2017-06-18 17:39:48"
 }
 
 /*

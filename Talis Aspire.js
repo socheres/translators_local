@@ -1,15 +1,15 @@
 {
 	"translatorID": "f16931f0-372e-4197-8927-05d2ba7599d8",
-	"translatorType": 4,
 	"label": "Talis Aspire",
 	"creator": "Sebastian Karcher",
 	"target": "^https?://([^/]+\\.)?(((my)?reading|resource|lib|cyprus|)lists|aspire\\.surrey|rl\\.talis)\\..+/(lists|items)/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 270,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsbv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-06-28 05:41:09"
 }
 
 /*

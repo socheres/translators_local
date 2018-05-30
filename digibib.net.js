@@ -1,15 +1,15 @@
 {
 	"translatorID": "e99bd723-39e6-418c-9524-390dbc583e08",
-	"translatorType": 4,
 	"label": "digibib.net",
 	"creator": "Heiko Jansen (hbz), Ingolf Kuss (hbz), Bernhard Assmann (hbz)",
 	"target": "^https?://.*\\.digibib\\.net/(Digibib|jumpto|metasearch|opensearch|template)",
 	"minVersion": "2.1.9",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-25 18:25:00"
+	"lastUpdated": "2017-06-05 17:35:41"
 }
 
 /*

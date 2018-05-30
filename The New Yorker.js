@@ -1,15 +1,15 @@
 {
 	"translatorID": "0fba73bf-f113-4d36-810f-2c654fa985fb",
+	"translatorType": 4,
 	"label": "The New Yorker",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.newyorker\\.com/",
 	"minVersion": "3.0",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
 	"inRepository": true,
-	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-11-12 22:00:35"
+	"lastUpdated": "2017-11-12 22:15:00"
 }
 
 /*

@@ -1,15 +1,15 @@
 {
 	"translatorID": "2e4ebd19-83ab-4a56-8fa6-bcd52b576470",
-	"translatorType": 4,
 	"label": "Sueddeutsche.de",
 	"creator": "Martin Meyerhoff",
 	"target": "^https?://www\\.sueddeutsche\\.de",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 21:03:57"
 }
 
 /*

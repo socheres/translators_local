@@ -1,15 +1,15 @@
 {
 	"translatorID": "06142d59-fa9c-48c3-982b-6e7c67d3d6b8",
-	"translatorType": 4,
 	"label": "The Hindu",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.thehindu\\.com/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-07-05 10:59:44"
 }
 
 /*

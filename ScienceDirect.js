@@ -9,7 +9,7 @@
 	"priority": 100,
 	"inRepository": true,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-03-04 08:05:00"
+	"lastUpdated": "2018-05-21 10:50:00"
 }
 
 // attr()/text() v2
@@ -65,7 +65,7 @@ function getPDFLink(doc, onDone) {
 	
 	// Some pages still have the PDF link available
 	var pdfURL = attr(doc, '#pdfLink', 'href');
-	if (!pdfURL) pdfURL = attr(doc, '[name="citation_pdf_url', 'content');
+	if (!pdfURL) pdfURL = attr(doc, '[name="citation_pdf_url"]', 'content');
 	if (pdfURL && pdfURL != '#') {
 		parseIntermediatePDFPage(pdfURL, onDone);
 		return;
@@ -403,7 +403,7 @@ function getArticleList(doc) {
 			|//td[@class="nonSerialResultsList"]/h3/a\
 			|//div[@id="bodyMainResults"]//li[contains(@class,"title")]//a\
 			|//h2/a[contains(@class, "result-list-title-link")]\
-			|//ol[@class="article-list"]//a[contains(@class, "article-content-title")]\
+			|//ol[contains(@class, "article-list") or contains(@class, "article-list-items")]//a[contains(@class, "article-content-title")]\
 		)\[not(contains(text(),"PDF (") or contains(text(), "Related Articles"))]');
 }
 

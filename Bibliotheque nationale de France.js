@@ -1,15 +1,15 @@
 {
 	"translatorID": "47533cd7-ccaa-47a7-81bb-71c45e68a74d",
-	"translatorType": 4,
 	"label": "Bibliothèque nationale de France",
 	"creator": "Florian Ziche, Sylvain Machefert",
 	"target": "^https?://[^/]*catalogue\\.bnf\\.fr",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "g",
-	"lastUpdated": "2017-07-07 20:20:00"
+	"lastUpdated": "2017-07-07 11:47:44"
 }
 
 /*

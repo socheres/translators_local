@@ -1,15 +1,15 @@
 {
 	"translatorID": "1d82cbdf-703d-4f96-9ae2-246af21bb96e",
-	"translatorType": 4,
 	"label": "Winnipeg Free Press",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.winnipegfreepress\\.com",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-25 21:25:00"
+	"lastUpdated": "2017-06-17 17:27:13"
 }
 
 /*

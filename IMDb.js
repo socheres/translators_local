@@ -1,15 +1,15 @@
 {
 	"translatorID": "a30274ac-d3d1-4977-80f4-5320613226ec",
-	"translatorType": 4,
 	"label": "IMDb",
 	"creator": "Philipp Zumstien",
 	"target": "^https?://www\\.imdb\\.com/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-22 16:55:00"
+	"lastUpdated": "2017-06-16 20:02:57"
 }
 
 /*

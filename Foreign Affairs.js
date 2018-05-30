@@ -1,15 +1,15 @@
 {
 	"translatorID": "4ab6d49c-d94e-4a9c-ae9a-3310c44ba612",
-	"translatorType": 4,
 	"label": "Foreign Affairs",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.foreignaffairs\\.com",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-09 20:40:00"
+	"lastUpdated": "2017-06-07 17:30:06"
 }
 
 /*

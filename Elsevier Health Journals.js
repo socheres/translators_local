@@ -1,15 +1,15 @@
 {
 	"translatorID": "b043e7ed-b921-4444-88af-2fcc39881ee2",
-	"translatorType": 4,
 	"label": "Elsevier Health Journals",
 	"creator": "Sebastian Karcher",
 	"target": "/search/(quick|results)$|/article/[^/]+/(abstract|fulltext|references|images)$",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 250,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsbv",
-	"lastUpdated": "2017-06-09 20:40:00"
+	"lastUpdated": "2017-06-07 07:00:39"
 }
 
 /*

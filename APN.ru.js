@@ -1,8 +1,8 @@
 {
 	"translatorID": "737216af-fc48-4aa5-bfae-560c9cfc5df5",
-	"label": "Агенство политических новостей",
+	"label": "APN.ru",
 	"creator": "Avram Lyon",
-	"target": "^https?:\\/\\/www\\.apn\\.ru\\/",
+	"target": "^https?://www\\.apn\\.ru/",
 	"minVersion": "2.0",
 	"maxVersion": "",
 	"priority": 100,
@@ -635,6 +635,7 @@ FW.doWeb = function (doc, url) {
                       });
     Zotero.wait();
 };
+
 /*********************** END FRAMEWORK ***********************/
 
 

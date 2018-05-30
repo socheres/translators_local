@@ -1,15 +1,15 @@
 {
 	"translatorID": "bd2e6136-d8e5-4f76-906b-0fbcd888dd63",
-	"translatorType": 4,
 	"label": "RePEc - IDEAS",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://ideas\\.repec\\.org/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-06 04:05:00"
+	"lastUpdated": "2017-06-05 07:38:26"
 }
 
 /*

@@ -1,15 +1,15 @@
 {
 	"translatorID": "8d72adbc-376c-4a33-b6be-730bc235190f",
-	"translatorType": 4,
 	"label": "IEEE Computer Society",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://(www[0-9]?|search[0-9]?)\\.computer\\.org/(csdl/(mags/[0-9a-z/]+|trans/[0-9a-z/]+|letters/[0-9a-z]+|proceedings/[0-9a-z/]+|doi|abs/proceedings)|search/results|portal/web/computingnow/.*content\\?)",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-09 20:40:00"
+	"lastUpdated": "2017-06-07 18:52:06"
 }
 
 /*

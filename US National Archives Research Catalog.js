@@ -1,15 +1,15 @@
 {
 	"translatorID": "f8b5501a-1acc-4ffa-a0a5-594add5e6bd3",
-	"translatorType": 4,
 	"label": "US National Archives Research Catalog",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://catalog\\.archives\\.gov",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-24 20:35:00"
+	"lastUpdated": "2017-06-24 07:29:33"
 }
 
 /*

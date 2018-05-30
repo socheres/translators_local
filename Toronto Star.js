@@ -1,15 +1,15 @@
 {
 	"translatorID": "6b0b11a6-9b77-4b49-b768-6b715792aa37",
-	"translatorType": 4,
 	"label": "Toronto Star",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.thestar\\.com",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-07-10 15:35:12"
 }
 
 /*

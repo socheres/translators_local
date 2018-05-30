@@ -1,15 +1,15 @@
 {
 	"translatorID": "039338fc-d84f-44bf-99e4-693cc91b569f",
-	"translatorType": 4,
 	"label": "WIPO",
 	"creator": "Sebastian Karcher",
 	"target": "^https?://patentscope\\.wipo\\.int",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsbv",
-	"lastUpdated": "2017-07-27 11:50:00"
+	"lastUpdated": "2017-07-27 10:44:58"
 }
 
 /*

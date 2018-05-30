@@ -1,15 +1,15 @@
 {
 	"translatorID": "2c98b8e6-6138-4b60-a999-15e3a7c8cb4b",
-	"translatorType": 4,
 	"label": "SAE Papers",
 	"creator": "Sebastian Karcher",
 	"target": "^https?://(www|papers)\\.sae\\.org/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-08 03:35:00"
+	"lastUpdated": "2017-07-07 05:40:25"
 }
 
 /*

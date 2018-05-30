@@ -1,15 +1,15 @@
 {
 	"translatorID": "4c272290-7ac4-433e-862d-244884ed285a",
-	"translatorType": 4,
 	"label": "sbn.it",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://(www|opac)\\.sbn\\.it/opacsbn/opaclib\\?",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 10:05:03"
 }
 
 /*

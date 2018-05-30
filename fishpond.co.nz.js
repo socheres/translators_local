@@ -1,15 +1,15 @@
 {
 	"translatorID": "c436f3c7-4246-4ed3-a227-a538c8113a0e",
-	"translatorType": 4,
 	"label": "fishpond.co.nz",
 	"creator": "Sopheak Hean, Sebastian Karcher",
 	"target": "^https?://www\\.fishpond\\.co\\.nz/",
 	"minVersion": "1.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-09 20:40:00"
+	"lastUpdated": "2017-06-07 17:26:42"
 }
 
 /*

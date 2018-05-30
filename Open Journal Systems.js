@@ -1,15 +1,15 @@
 {
 	"translatorID": "99b62ba4-065c-4e83-a5c0-d8cc0c75d388",
-	"translatorType": 4,
 	"label": "Open Journal Systems",
 	"creator": "Aurimas Vinckevicius",
 	"target": "/article/view/",
 	"minVersion": "2.1.9",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-25 21:25:00"
+	"lastUpdated": "2017-06-18 22:34:25"
 }
 
 function detectWeb(doc, url) {

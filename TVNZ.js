@@ -1,15 +1,15 @@
 {
 	"translatorID": "649c2836-a94d-4bbe-8e28-6771f283702f",
-	"translatorType": 4,
 	"label": "TVNZ",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://(www\\.)?tvnz\\.co\\.nz/one-news/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-07-05 06:37:09"
 }
 
 /*

@@ -1,14 +1,11 @@
 {
 	"translatorID": "eb7059a4-35ec-4961-a915-3cf58eb9784b",
-	"translatorType": 3,
 	"label": "Endnote XML",
 	"creator": "Sebastian Karcher",
 	"target": "xml",
 	"minVersion": "4.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
-	"inRepository": true,
-	"browserSupport": "gcv",
 	"configOptions": {
 		"async": true,
 		"getCollections": true
@@ -17,7 +14,10 @@
 		"exportNotes": true,
 		"exportFileData": false
 	},
-	"lastUpdated": "2017-07-08 08:20:00"
+	"inRepository": true,
+	"translatorType": 3,
+	"browserSupport": "gcv",
+	"lastUpdated": "2017-07-05 19:32:38"
 }
 
 function detectImport() {

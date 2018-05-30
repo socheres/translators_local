@@ -1,15 +1,15 @@
 {
 	"translatorID": "40b9ca22-8df4-4f3b-9cb6-8f9b55486d30",
-	"translatorType": 4,
 	"label": "The Telegraph",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://[^/]*telegraph\\.co\\.uk/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-07-02 15:26:57"
 }
 
 /*

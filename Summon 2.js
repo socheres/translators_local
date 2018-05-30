@@ -1,15 +1,15 @@
 {
 	"translatorID": "6c61897b-ca44-4ce6-87c1-2da68b44e6f7",
-	"translatorType": 4,
 	"label": "Summon 2",
 	"creator": "Caistarrin Mystical and Aurimas Vinckevicius",
 	"target": "^https?://([^/]+\\.)?summon\\.serialssolutions\\.com/",
 	"minVersion": "4.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 150,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsib",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 21:11:06"
 }
 
 /*

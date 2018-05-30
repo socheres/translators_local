@@ -1,15 +1,15 @@
 {
 	"translatorID": "9499c586-d672-42d6-9ec4-ee9594dcc571",
-	"translatorType": 4,
 	"label": "The Hindu (old)",
 	"creator": "Prashant Iyengar and Michael Berkowitz",
 	"target": "^https?://(www\\.)?thehindu\\.com/lr/",
 	"minVersion": "1.0.0b4.r5",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-07-10 15:25:23"
 }
 
 function detectWeb(doc, url) {

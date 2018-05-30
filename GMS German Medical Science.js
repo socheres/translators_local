@@ -1,15 +1,15 @@
 {
 	"translatorID": "8d5984e8-3ba9-4faa-8b84-a58adae56439",
-	"translatorType": 4,
 	"label": "GMS German Medical Science",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.egms\\.de/static/de/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-05 01:50:00"
+	"lastUpdated": "2017-06-26 21:31:55"
 }
 
 /*

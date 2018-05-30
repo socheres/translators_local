@@ -1,15 +1,15 @@
 {
 	"translatorID": "5ac0fd37-5578-4f82-8340-0e135b6336ee",
-	"translatorType": 4,
 	"label": "Scholars Portal Journals",
 	"creator": "Bartek Kawula",
 	"target": "^https?://journals\\d?\\.scholarsportal\\.info/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 10:24:20"
 }
 
 /*

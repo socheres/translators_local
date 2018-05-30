@@ -1,15 +1,15 @@
 {
 	"translatorID": "75ccea3c-fdb8-4473-8203-ceb27f3395f8",
-	"translatorType": 4,
 	"label": "BioMed Central",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://[^\\.]+\\.(biomedcentral|springeropen)\\.com/(articles|search)",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 17:55:46"
 }
 
 /*

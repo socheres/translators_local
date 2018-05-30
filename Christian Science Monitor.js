@@ -635,6 +635,7 @@ FW.doWeb = function (doc, url) {
                       });
     Zotero.wait();
 };
+
 /*********************** END FRAMEWORK ***********************/
 
 

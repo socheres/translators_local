@@ -1,15 +1,15 @@
 {
 	"translatorID": "b2d61bb5-5b21-41b7-9c83-1abcbf14639b",
-	"translatorType": 4,
 	"label": "TheMarker",
 	"creator": "Eran Rosenthal",
 	"target": "^https?://www\\.themarker\\.com/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-07-03 10:47:30"
 }
 
 /**

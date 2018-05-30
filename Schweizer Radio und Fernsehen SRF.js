@@ -1,15 +1,15 @@
 {
 	"translatorID": "a8e51f4e-0372-42ad-81a8-bc3dcea6dc03",
-	"translatorType": 4,
 	"label": "Schweizer Radio und Fernsehen SRF",
 	"creator": "ibex, Sebastian Karcher",
 	"target": "^https?://(www\\.)?srf\\.ch/sendungen/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 22:06:07"
 }
 
 /*

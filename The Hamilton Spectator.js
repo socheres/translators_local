@@ -1,15 +1,15 @@
 {
 	"translatorID": "c9338ed5-b512-4967-8ffe-ab9c973559ef",
-	"translatorType": 4,
 	"label": "The Hamilton Spectator",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.thespec\\.com",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-07-10 15:23:44"
 }
 
 /*

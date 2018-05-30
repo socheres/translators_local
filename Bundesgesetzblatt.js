@@ -1,15 +1,15 @@
 {
 	"translatorID": "e23afbe8-b5cb-42cc-af90-e915b2c00de2",
-	"translatorType": 4,
 	"label": "Bundesgesetzblatt",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.bgbl\\.de/",
 	"minVersion": "4.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-22 21:30:00"
+	"lastUpdated": "2017-07-22 20:35:31"
 }
 
 /*

@@ -1,15 +1,15 @@
 {
 	"translatorID": "439c869c-c605-47b4-b330-157a23a4b4f3",
-	"translatorType": 4,
 	"label": "Store norske leksikon",
 	"creator": "Håkon Malmedal",
 	"target": "^https?://((sml|nbl|nkl)\\.)?snl\\.no/[^.]",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 20:57:00"
 }
 
 /* Translator for Store norske leksikon

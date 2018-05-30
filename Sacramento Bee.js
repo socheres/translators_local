@@ -1,15 +1,15 @@
 {
 	"translatorID": "82b534ea-abf0-4527-9d5d-48cd98a89ba5",
-	"translatorType": 4,
 	"label": "Sacramento Bee",
 	"creator": "czar",
 	"target": "^https?://(www\\.)?sacbee\\.com",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:25:00"
+	"lastUpdated": "2017-07-09 05:05:18"
 }
 
 /*

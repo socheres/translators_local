@@ -1,15 +1,15 @@
 {
 	"translatorID": "0d6f8450-72e8-4d8f-bdc2-b7fa03e6f2c5",
-	"translatorType": 4,
 	"label": "The Nation",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.thenation\\.com/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-07-01 20:37:00"
 }
 
 /*

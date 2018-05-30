@@ -1,15 +1,15 @@
 {
 	"translatorID": "d21dcd90-c997-4e14-8fe0-353b8e19a47a",
-	"translatorType": 4,
 	"label": "SAGE Knowledge",
 	"creator": "ProQuest, Philipp Zumstein",
 	"target": "^https?://sk\\.sagepub\\.com/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-25 19:38:38"
 }
 
 /*

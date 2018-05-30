@@ -1,15 +1,15 @@
 {
 	"translatorID": "d84574f1-e4d6-4337-934f-bf9d01173bf0",
-	"translatorType": 4,
 	"label": "taz.de",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://(www\\.)?taz\\.de",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-07-10 16:55:04"
 }
 
 /*

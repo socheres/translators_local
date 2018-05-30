@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcsv",
-	"lastUpdated": "2017-11-23 10:48:18"
+	"lastUpdated": "2016-11-05 10:57:01"
 }
 
 // The variables items and selectArray will be filled during the first

@@ -1,15 +1,15 @@
 {
 	"translatorID": "abc89357-6185-4ddd-8583-80034b754832",
-	"translatorType": 4,
 	"label": "Google Play",
 	"creator": "Avram Lyon",
 	"target": "^https?://play\\.google\\.com/",
 	"minVersion": "4.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-09 20:40:00"
+	"lastUpdated": "2017-06-07 18:01:47"
 }
 
 /*

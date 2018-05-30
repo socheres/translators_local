@@ -1,18 +1,18 @@
 {
 	"translatorID": "bc03b4fe-436d-4a1f-ba59-de4d2d7a63f7",
-	"translatorType": 3,
 	"label": "CSL JSON",
 	"creator": "Simon Kornblith",
 	"target": "json",
 	"minVersion": "4.0.27",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
-	"inRepository": true,
-	"browserSupport": "gcsibv",
 	"configOptions": {
 		"async": true
 	},
-	"lastUpdated": "2017-07-08 08:20:00"
+	"inRepository": true,
+	"translatorType": 3,
+	"browserSupport": "gcsibv",
+	"lastUpdated": "2017-07-05 19:32:38"
 }
 
 function parseInput() {

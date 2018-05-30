@@ -635,6 +635,7 @@ FW.doWeb = function (doc, url) {
                       });
     Zotero.wait();
 };
+
 /*********************** END FRAMEWORK ***********************/
 
 
@@ -707,7 +708,7 @@ var testCases = [
 				"title": "Green growth? Evidence from energy taxes in Europe",
 				"creators": [
 					{
-						"firstName": "Richard S. J.",
+						"firstName": "Richard",
 						"lastName": "Tol",
 						"creatorType": "author"
 					},

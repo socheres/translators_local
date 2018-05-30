@@ -1,15 +1,15 @@
 {
 	"translatorID": "eef50507-c756-4081-86fd-700ae4ebf22e",
-	"translatorType": 4,
 	"label": "Spiegel Online",
 	"creator": "Martin Meyerhoff",
 	"target": "^https?://www\\.spiegel\\.de/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 17:08:45"
 }
 
 /*

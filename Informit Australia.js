@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcs",
-	"lastUpdated": "2013-12-06 14:04:29"
+	"lastUpdated": "2018-04-05 10:50:26"
 }
 
 /*
@@ -42,7 +42,7 @@ function detectWeb(doc, url) {
 		if (typeMap[type]) return typeMap[type]
 	else return "journalArticle"
 	}
-	else if(url.match(/action\=doSearch/)) {
+	else if(url.match(/browsePublication/)) {
 		return "multiple";
 	}
 	return false;

@@ -1,7 +1,7 @@
 {
-	"translatorID": "2edf7a1b-eded-48d7-ae11-7126fd1c1b07",
-	"label": "PicaSWB",
-	"creator": "Philipp Zumstein, Timotheus Kim",
+	"translatorID": "2edf7a1b-eded-48d7-ae11-7126fd1c1b07mt",
+	"label": "PicaSWBMario",
+	"creator": "Philipp Zumstein, Timotheus Kim, Mario Trojan",
 	"target": "txt",
 	"minVersion": "3.0",
 	"maxVersion": "",
@@ -9,37 +9,29 @@
 	"inRepository": true,
 	"translatorType": 2,
 	"browserSupport": "gcs",
-	"lastUpdated": "2018-04-05 16:25:00"
+	"lastUpdated": "2017-10-26 09:01:00"
 }
 
 
 // Zotero Export Translator für das Pica Intern Format
 // (wie es im SWB Verbund benutzt wird)
 
-
 /*
-	***** BEGIN LICENSE BLOCK *****
-	Copyright © 2016 Philipp Zumstein
-	This file is part of Zotero.
-	Zotero is free software: you can redistribute it and/or modify
-	it under the terms of the GNU Affero General Public License as published by
-	the Free Software Foundation, either version 3 of the License, or
-	(at your option) any later version.
-	Zotero is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-	GNU Affero General Public License for more details.
-	You should have received a copy of the GNU Affero General Public License
-	along with Zotero. If not, see <http://www.gnu.org/licenses/>.
-	***** END LICENSE BLOCK *****
+    ***** BEGIN LICENSE BLOCK *****
+    Copyright � 2016 Philipp Zumstein
+    This file is part of Zotero.
+    Zotero is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    Zotero is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU Affero General Public License for more details.
+    You should have received a copy of the GNU Affero General Public License
+    along with Zotero. If not, see <http://www.gnu.org/licenses/>.
+    ***** END LICENSE BLOCK *****
 */
-
-
-
-
-
-
-
 
 var journalMapping = {
 	"0021-9231" : "!121739872!", // Journal of Biblical Literature 
@@ -156,7 +148,7 @@ var journalMapping = {
 	"00143367" : "!015178811!", // Evangelical quarterly
 	"1474-225X" : "!255884532!", // International journal for the study of the Christian church
 	"1747-0234" : "!255884532!", // International journal for the study of the Christian church
-	"2153-6945" : "!477959180!", // Newman studies journal
+	"1547-9080" : "!477959180!", // Newman studies journal
 	"0144-8153" : "!015230376!", // Evangelical review of theology
 	"0360-8808" : "!345580796!", // Journal of the Evangelical Theological Society
 	"0092-6558" : "!015194132!", // Journal of the Interdenominational Theological Center
@@ -308,11 +300,11 @@ var journalMapping = {
 	"1612-2941" : "!281189013!", // Marburg Journal of Religion
 	"0017-2251" : "!015194361!", // Christian scholar’s review
 	"00172251" : "!015194361!", // Christian scholar’s review
-	"0774-5524" : "!11395039X!", // Questions liturgiques
+	"0774-5524" : "!015182746!", // Questions liturgiques
 	"1861-5813" : "!281289085!", // Online - Heidelberg Journal of Religions on the Internet
 	"1783-1806" : "!112891241!", // Studies in Interreligious Dialogue
 	"0926-2326" : "!112891241!", // Studies in Interreligious Dialogue
-	"1783-1709" : "!11395039X!", // Questions Liturgiques/Studies in Liturgy
+	"1783-1709" : "!015182746!", // Questions Liturgiques/Studies in Liturgy
 	"0035-0893" : "!014419440!", // Revue bénédictine
 	"1861-5813" : "!281289085!", // Online - Heidelberg Journal of Religions on the Internet
 	"1867-4240" : "!343626896!", // Transformierte Buddhismen
@@ -327,7 +319,7 @@ var journalMapping = {
 	"03610160" : "!103189548!", // The Sixteenth Century Journal
 	"0014-2239" : "!424017644!", // Etudes théologiques et religieuses
 	"2272-9011" : "!424017644!", // Etudes théologiques et religieuses
-	"0038-8610" : "!423615440!", // Concordia Theological Quarterly
+	"0038-8610" : "!015205207!", // Concordia Theological Quarterly
 	"0047-2867" : "!015194620!", // Journal of Theology for Southern Africa
 	"0342-0914" : "!014414104!", // Lutherjahrbuch
 	"0194-3448" : "!318814447!", // American journal of theology and philosophy
@@ -447,9 +439,9 @@ var journalMapping = {
 	"18630502" : "!281238162!", //Theo-Web Zeitschrift für Religionspädagogik
 	"1863-0502" : "!281238162!", //Theo-Web Zeitschrift für Religionspädagogik
 	"1015-8758" : "!347604765!", // Acta Theologica
-	"1015-8758, 2309-9089" : "!347604765!", // Acta Theologica
-	"2309-9089" : "!347604765!", // Acta Theologica
 	"10158758" : "!347604765!", // Acta Theologica
+	"2309-9089" : "!347604765!", // Acta Theologica
+	"1015-8758, 2309-9089" : "!347604765!", // Acta Theologica
 	"1862-1678" : "!281343004!", // theologie.geschichte
 	"1983-2850" : "!361845626!", // Revista Brasileira de História das Religiões 
 	"19832850" : "!361845626!", // Revista Brasileira de História das Religiões
@@ -771,7 +763,7 @@ var journalMapping = {
 	"18717691" : "!281221219!", // PentecoStudies
 	"2331-2521" : "!40970038X!", // Journal of disability & religion
 	"2044-0243" : "!455632693!", // Journal for the Study of Spirituality
-	"1941-1022" : "!31627786X!", // Psychology of Religion and Spirituality
+	"1941-1022" : "!31627786X!", // Psychology of Religion and Spirituality	
 	"1755-0483, 1755-0491" : "!29433923X!", // Politics and Religion
 	"1755-0483" : "!29433923X!", // Politics and Religion
 	"1755-0491" : "!29433923X!", // Politics and Religion
@@ -803,7 +795,9 @@ var journalMapping = {
 	"0047-8105" : "!368309355!", // Moreana
 	"2518-4628" : "!410110930!", // Neotestamentica
 	"0254-8356, 2518-4628" : "!410110930!", // Neotestamentica
-	"0119-3228" : "!080988326!", // Journal of Asian Mission
+	
+	
+	
 };
 
 
@@ -988,6 +982,9 @@ var issnLangMapping = {
 	"0107-4164" : "dan", // Grundtvig-Studier
 	"18277365" : "ita", // Rivista di Storia del Cristianesimo
 	"0033-1767" : "ita", // Protestantesimo
+	
+
+
 
 
 	
@@ -997,7 +994,7 @@ var issnLangMapping = {
 var issnVolumeMapping = {
 	"2031-5929" : "N.S.",
 	"2031-5922" : "A.S.",
-};
+	};
 
 var issnPhysicalFormMapping = {
 	"1550-0195" : "O",
@@ -1287,7 +1284,7 @@ var issnPhysicalFormMapping = {
 	"1463-1652" : "O", // International journal of systematic theology !!pppn
 	"14631652" : "O", // International journal of systematic theology !!pppn
 	"1466-769X" : "A", // Nursing philosophy !!eppn
-	"2473-3725" : "O", // The Thomist !!eppn
+	"2473-3725" : "O", // The Thomist 
 	"0969-7330" : "A", // Nursing ethics !!pppn
 	"1477-0989" : "A", // Nursing ethics !!eppn
 	"2565-7070" : "O", // Biblica !!pppn
@@ -1375,7 +1372,7 @@ var issnPhysicalFormMapping = {
 	"1612-2941" : "O", // Marburg Journal of Religion
 	"0017-2251":  "A", // Christian scholar’s review
 	"00172251":  "A", // Christian scholar’s review
-	"0774-5524" : "O", // Questions liturgiques
+	"0774-5524" : "A", // Questions liturgiques
 	"1861-5813" : "O", // Online - Heidelberg Journal of Religions on the Internet
 	"1783-1806" : "O", // Studies in Interreligious Dialogue
 	"0926-2326" : "O", // Studies in Interreligious Dialogue
@@ -1384,12 +1381,13 @@ var issnPhysicalFormMapping = {
 	"1861-5813" : "O", // Online - Heidelberg Journal of Religions on the Internet
 	"1867-4240" : "O", // Transformierte Buddhismen
 	"1583-0039" : "O", // Journal for the Study of Religions and Ideologies
+	"0360-6503" : "O", // Process studies
 	"0378-2506" : "O", // Byzantion
 	"2294-6209" : "O", // Byzantion
 	"Byzantion" : "O", // Byzantion
 	"0361-0160" : "O", // The Sixteenth Century Journal
 	"03610160" : "O", // The Sixteenth Century Journal
-	"0038-8610" : "O", // Concordia Theological Quarterly
+	"0038-8610" : "A", // Concordia Theological Quarterly
 	"0014-2239" : "O", // Etudes théologiques et religieuses !!pppn
 	"2272-9011" : "O", // Etudes théologiques et religieuses !!eppn
 	"0014-2239, 2272-9011" : "O", // Etudes théologiques et religieuses !!pppn + eppn
@@ -1490,9 +1488,9 @@ var issnPhysicalFormMapping = {
 	"2365-3140" : "O", // Interdisciplinary journal for religion and transformation in contemporary society
 	"18630502" : "O", //Theo-Web Zeitschrift für Religionspädagogik
 	"1863-0502" : "O", //Theo-Web Zeitschrift für Religionspädagogik
-	"2309-9089" : "O", // Acta Theologica
-	"1015-8758, 2309-9089" : "O", // Acta Theologica
 	"1015-8758" : "O", // Acta Theologica
+	"1015-8758, 2309-9089" : "O", // Acta Theologica
+	"2309-9089" : "O", // Acta Theologica
 	"10158758" : "O", // Acta Theologica
 	"1862-1678" : "O", // theologie.geschichte
 	"1983-2850" : "O", // Revista Brasileira de História das Religiões 
@@ -1802,8 +1800,7 @@ var issnPhysicalFormMapping = {
 	"Detroit Baptist Seminary Journal" : "O", // Detroit Baptist Seminary Journal E-PPN
 	"One in Christ" : "A", // One in Christ Print-PPN
 	"The Reformed Theological Review" : "O", // The Reformed Theological Review E-PPN
-	"Studies in Spirituality" : "O", // Studies in Spirituality E-PPN
-	"Philosophia Christi" : "A", // Philosophia Christi
+	"Philosophia Christi" : "O", // Philosophia Christi
 	"0107-4164" : "O", // Grundtvig-Studier
 	"0020-157x" : "O", // Innes Review
 	"18277365" : "O", // Rivista di Storia del Cristianesimo
@@ -1823,8 +1820,6 @@ var issnPhysicalFormMapping = {
 	"2518-4628" : "O", // Neotestamentica
 	"0254-8356, 2518-4628" : "O", // Neotestamentica
 	"Science et Esprit" : "A", // Science et Esprit
-	"Questions Liturgiques/Studies in Liturgy" : "O", // Questions Liturgiques
-	"0119-3228" : "A", // Journal of Asian Mission
 	
 	
 };
@@ -1903,6 +1898,8 @@ var issnLicenceFieldMapping = {
 	"1015-8758, 2309-9089" : "l", // Acta Theologica
 	"01188534" : "l", // Asian journal of pentecostal studies
 	"0118-8534" : "l", // Asian journal of pentecostal studies
+	
+
 	
 	
 };
@@ -2173,6 +2170,8 @@ var issnSsgMapping = {
 	"2164-6279" : "1", // Journal of Hindu-Christian Studies 
 	"ARC" : "0; 1", // ARC
 	
+	
+	
 };
 
 
@@ -2208,7 +2207,6 @@ var issnJournalTitleMapping = {
 	"Detroit Baptist Seminary Journal" : "!454420730!", // Detroit Baptist Seminary Journal E-PPN
 	"One in Christ" : "!015178552!", // One in Christ Print-PPN
 	"The Reformed Theological Review" : "!42401243X!", // The Reformed Theological Review E-PPN
-	"Studies in Spirituality" : "!113564856!", // Studies in Spirituality E-PPN
 	"Philosophia Christi" : "!106362623!", // Philosophia Christi
 	"Calvin Theological Journal" : "!501717714!", // Calvin Theological Journal
 	"Anglican and Episcopal History" : "!016232976!", // Anglican and Episcopal History
@@ -2224,7 +2222,6 @@ var issnJournalTitleMapping = {
 	"Louvain Studies" : "!113144229!", // Louvain Studies
 	"ARC" : "!059754931!", // ARC
 	"Science et Esprit" : "!015183734!", // Science et Esprit
-	"Questions Liturgiques/Studies in Liturgy" : "!11395039X!", // Questions Litugiques
 	
 };
 
@@ -2233,244 +2230,261 @@ var JournalTitleLanguageMapping = {
 	"Oriens Christianus" :"ger",
 	"Ephemerides Theologicae Lovanienses" : "fre",
 	"Science et Esprit" : "fre", 
-}
-
-
+	}
 
 
 // ab hier Programmcode
-
-
 var defaultSsgNummer = "1";
 var defaultLanguage = "eng";
-var lokaldatensatz = "\nE* l01\n7100$jn \n8002 ixzs;ixzo\n";
+//lokaldatensatz z.B. \\n6700 !372049834!\\n6700 !37205241X!\\n6700 !372053025!\\n6700!37205319X!
+var lokaldatensatz = '\\nE* l01\\n7100$jn\\n8002 ixzs;ixzo");\napplication.activeWindow.pressButton("Enter");\n\n';
+var maschinell =  '$aixzom$bAutor maschinell zugeordnet\\n';
+var insertCommand = 'application.activeWindow.command("e", false);\n';
+var insertText = 'application.activeWindow.title.insertText("';
+var insert = insertCommand + insertText;
 
 //item.type --> 0500 Bibliographische Gattung und Status
 //http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
-var physicalForm = issnPhysicalFormMapping;//0500 Position 1	
-var cataloguingStatus = "n";//0500 Position 3 "n" maschinell, bei manueller Nachverknüpfung bitte in "r" ändern.
-var cataloguingStatusO = "n";//0500 Position 3 "n" maschinell, bei manueller Nachverknüpfung bitte in "r" ändern.
+var physicalForm = issnPhysicalFormMapping;//0500 Position 1
+var cataloguingStatus = "n";//0500 Position 3
+var cataloguingStatusO = "n";//0500 Position 3
 var licenceField = issnLicenceFieldMapping; // 0500 Position 4 only for Open Access Items; http://swbtools.bsz-bw.de/cgi-bin/help.pl?cmd=kat&val=4085&regelwerk=RDA&verbund=SWB
 var SsgField = issnSsgMapping;
+var authorMapping = {};
 
-// Da alles asynchron ablaufen kann:
-//Jede Lookup einer AutorIn zählt 1 zu count
-//und nach Erledigung wieder 1 weg. Der
-//Startwert ist 1 und nach Erledigung aller
-//anderen Zeilen wird 1 subtrahiert. Erst
-//bei 0 wird die Ausgabe aus outputText erzeugt.
-var count = 1;
-var outputText = "";
+/*
+    WICHTIG - ERST LESEN UND !!!VERSTEHEN!!! BEVOR ÄNDERUNGEN GEMACHT WERDEN
 
-function writeLine(code, line) {
+    Hinweise zur Nebenläufigkeit
+    - Dieses Skript verwendet Remote-calls zum Auflösen verschiedener Daten (z.B. PPNs für Autoren)
+    - Diese Calls sind per Javascript nur asynchron aufrufbar
+        - Konstrukte wie z.B. Zotero.wait() und Zotero.done() existieren in der aktuellen Zotero-Version (5) noch, haben aber keine Funktion mehr.
+        - Verschiedene Workarounds wurden ausprobiert (z.B. Semaphor über globale Variable), haben aber nie funktioniert
+        - Man kommt also um die asynchronen Aufrufe nicht herum
 
-	//Halbgeviertstrich und andere UNICODE-Zeichen ersetzen
-	line = line.replace(/–/g, '-').replace(/’/g, '\'').replace(/œ/g, '\u0153').replace(/ā/g, '\u0101').replace(/â/g, '\u00E2').replace(/Ṣ/g, '\u1E62').replace(/ṣ/g, '\u1E63').replace(/ū/g, '\u016B').replace(/ḥ/g, '\u1E25').replace(/ī/g, '\u012B').replace(/ṭ/g, '\u1E6D').replace(/ʾ/g, '\u02BE').replace(/ʿ/g, '\u02BF');
+    HINWEISE ZUR IMPLEMENTATION in diesem Skript
+    - Die Variable runningThreadCount enthält die Anzahl der noch laufenden Threads (Hauptskript + asynchrone abfragen)
+        - Startwert 1 (für Hauptskript)
+        - +1 beim Start jedes zusätzlichen asynchronen Aufrufs
+        - -1 beim Ende jedes asynchronen Aufrufs (im ondone callback)
+        - -1 beim Ende des Hauptskripts
+    - Alle Informationen werden im itemsOutputCache nach Item gruppiert gesammelt (laufende Nummer)
+    - Erst am Ende des Skripts werden die Einträge im itemsOutputCache sortiert und geschrieben
+        - Sortierung ist notwendig, da Hauptskript und asynchrone Threads gemischt Codes reinschreiben => Codes sind durcheinander
+        - So wird auch verhindert dass Datensätze durcheinander sind, falls mehrere gleichzeitig exportiert werden
+    - Dafür ist es notwendig, dass sowohl das Ende des Skripts als auch jeder einzelne Async ondone callback auf
+      runningThreadCount == 0 prüft und bei Bedarf die finale Funktion WriteItems aufruft.
+ */
 
-	//Text zusammensetzen
-	outputText += code + " " + line + "\n";
+var runningThreadCount = 1;
+var currentItemId = -1;
+var itemsOutputCache = []
 
-	//Lookup für Autoren
-	if ((code == "3000" || code == "3010") && line[0] != "!") {
-		count++;
-		var authorName = line.substring(0,line.indexOf("$BVerfasserIn$4aut \n"));
-		var lookupUrl = "http://swb.bsz-bw.de/DB=2.104/SET=70/TTL=1/CMD?SGE=&ACT=SRCHM&MATCFILTER=Y&MATCSET=Y&NOSCAN=Y&PARSE_MNEMONICS=N&PARSE_OPWORDS=N&PARSE_OLDSETS=N&IMPLAND=Y&NOABS=Y&ACT0=SRCHA&SHRTST=50&IKT0=1&TRM0=" + authorName +"&ACT1=*&IKT1=2057&TRM1=*&ACT2=*&IKT2=8977&TRM2=(theolog*|neutestament*|alttestament*|kirchenhist*|judais*|Religionswi*|pfarrer*)&ACT3=-&IKT3=8978-&TRM3=1[1%2C2%2C3%2C4%2C5%2C6%2C7%2C8][0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9][0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9]?"
-				
-		/*lookupUrl kann je nach Anforderung noch spezifiziert werden, im obigen Abfragebeispiel: 
-		suchen [und] (Person(Phrase: Nachname, Vorname) [PER]) " authorName "
-		eingrenzen (Systematiknummer der SWD [SN]) *
-		eingrenzen (Relationiertes Schlagwort in der GND [RLS]) theolog*
-		ausgenommen (Relationierte Zeit in der GND [RLZ]) 1[1,2,3,4,5,6,7,8][0,1,2,3,4,5,6,7,8,9][0,1,2,3,4,5,6,7,8,9]
-		
-		IKT0=1 TRM0= für Persönlicher Name in Picafeld 100
-		IKT1=2057 TRM1=3.* für GND-Systematik
-		IKT2=8963 TRM2=theolog*    für Berufsbezeichnung 550
-		IKT3=8991  TRM3=1[1,2,3,4,5,6,7,8][0,1,2,3,4,5,6,7,8,9][0,1,2,3,4,5,6,7,8,9] für Geburts- und Sterbedatum (Bereich)
-		
-		###OPERATOREN vor "IKT"###
-		UND-Verknüpfung "&" | ODER-Verknüpfung "%2B&" | Nicht "-&"
-		
-		###TYP IKT=Indikatoren|Zweite Spalte Schlüssel(IKT)###
-		Liste der Indikatoren und Routine http://swbtools.bsz-bw.de/cgi-bin/help.pl?cmd=idx_list_typ&regelwerk=RDA&verbund=SWB
-		*/
-		
-		ZU.processDocuments([lookupUrl], function(doc, url){
-			var ppn = ZU.xpathText(doc, '//small[a[img]]');
-			if (ppn) {
-				outputText = outputText.replace(authorName, "!" + ppn.trim() + "!$BVerfasserIn$4aut \n8910 $aixzom$bAutor maschinell zugeordnet");
-			}
-		}, function() {
-			count--;
-			if (count === 0) {
-				Zotero.write(outputText);
-			}
-		});
-	}
+/**
+ * Diese Funktion dient als Ersatz für Zotero.ProcessDocuments
+ * Mit dieser Funktion ist es möglich, der processor-Funktion eine zusätzliche Variable weiterzugeben ("processorParams").
+ * Notwendig um z.B. Kopien globaler Variablen weiterzugeben, die sonst den Wert ändern
+ * bis die Processor-Funktion am Ende des callbacks aufgerufen wird.
+ *
+ * Original siehe: https://github.com/zotero/zotero/blob/master/chrome/content/zotero/xpcom/http.js
+ */
+async function processDocumentsCustom (url, processor, processorParams, onDone, onError) {
+    var f = function() {
+       Zotero.Utilities.loadDocument(url, function(doc) {
+           processor(doc, url, processorParams);
+       });
+
+    };
+
+    try {
+        await f();
+    }
+    catch (e) {
+        if (onError) {
+            onError(e);
+        }
+        throw e;
+    }
+
+    if (onDone) {
+        onDone();
+    }
+};
+
+function addLine(itemid, code, value) {
+    //Halbgeviertstrich ersetzen
+    value = value.replace(/–/g, '-').replace(/’/g, '\'').replace(/œ/g, '\\u0153').replace(/ā/g, '\\u0101').replace(/â/g, '\\u00E2').replace(/Ṣ/g, '\\u1E62').replace(/ṣ/g, '\\u1E63').replace(/ū/g, '\\u016B').replace(/ḥ/g, '\\u1E25').replace(/ī/g, '\\u012B').replace(/ṭ/g, '\\u1E6D').replace(/ʾ/g, '\\u02BE').replace(/ʿ/g, '\\u02BF').replace(/–/g, '-').replace(/&#160;/g, "").replace(/"/g, '\\"');
+
+    //Zeile zusammensetzen
+    var line = code + " " + value;
+    itemsOutputCache[itemid].push(line);
 }
 
+
 function doExport() {
-	var item;
-	while ((item = Zotero.nextItem())) {
-		
-		//enrich items based on their ISSN
-		if (!item.language && item.ISSN && issnLangMapping[item.ISSN]) {
-			item.language = issnLangMapping[item.ISSN];
-		}
-		if (SsgField && item.ISSN && issnSsgMapping[item.ISSN]) {
-			SsgField = issnSsgMapping[item.ISSN];
-		}
-		if (item.volume && item.ISSN && issnVolumeMapping[item.ISSN]) {
-			item.volume = issnVolumeMapping[item.ISSN] + item.volume;
-		}
-		if (physicalForm && item.ISSN && issnPhysicalFormMapping[item.ISSN]) {
-			physicalForm = issnPhysicalFormMapping[item.ISSN]; // position 1 http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
-		}
+    var item;
+    while ((item = Zotero.nextItem())) {
+        currentItemId++;
+        itemsOutputCache[currentItemId] = [];
+
+        //enrich items based on their ISSN
+        if (!item.language && item.ISSN && issnLangMapping[item.ISSN]) {
+            item.language = issnLangMapping[item.ISSN];
+        }
+        if (SsgField && item.ISSN && issnSsgMapping[item.ISSN]) {
+            SsgField = issnSsgMapping[item.ISSN];
+        }
+        if (item.volume && item.ISSN && issnVolumeMapping[item.ISSN]) {
+            item.volume = issnVolumeMapping[item.ISSN] + item.volume;
+        }
+        if (physicalForm && item.ISSN && issnPhysicalFormMapping[item.ISSN]) {
+            physicalForm = issnPhysicalFormMapping[item.ISSN]; // position 1 http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
+        }
 		if (physicalForm && item.publicationTitle && issnJournalTitleMapping[item.publicationTitle]) {
 			physicalForm = issnPhysicalFormMapping[item.publicationTitle]; // position 1 http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
 		}
-		if (licenceField && item.ISSN && issnLicenceFieldMapping[item.ISSN]) {
-			licenceField = issnLicenceFieldMapping[item.ISSN]; // position 4 http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
-		}
-		
-		
-		var article = false;
-		switch (item.itemType) {
-			case "journalArticle":
-			case "bookSection":
-			case "magazineArticle": // wird bei der Erfassung von Rezensionen verwendet. Eintragsart "Magazin-Artikel" wird manuell geändert.
-			case "newspaperArticle":
-			case "encyclopediaArticle":
-				article = true;
-				break;
-		}
+        if (licenceField && item.ISSN && issnLicenceFieldMapping[item.ISSN]) {
+            licenceField = issnLicenceFieldMapping[item.ISSN]; // position 4 http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
+        }
 
+
+        var article = false;
+        switch (item.itemType) {
+            case "journalArticle":
+            case "bookSection":
+            case "magazineArticle": // wird bei der Erfassung von Rezensionen verwendet. Eintragsart "Magazin-Artikel" wird manuell ge�ndert.
+            case "newspaperArticle":
+            case "encyclopediaArticle":
+                article = true;
+                break;
+        }
+
+		
 		//item.type --> 0500 Bibliographische Gattung und Status
 		//http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
-				switch (true) {
+		switch (true) {
 			case physicalForm === "A":
-				writeLine('0500', physicalForm+"o"+cataloguingStatus);
+				addLine(currentItemId, '\\n0500', physicalForm+"o"+cataloguingStatus);
 				break;
 			case physicalForm === "O" && licenceField === "l":
-				writeLine('0500', physicalForm+"o"+cataloguingStatus+licenceField); 
+				addLine(currentItemId, '\\n0500', physicalForm+"o"+cataloguingStatus+licenceField); 
 				break;
 			case physicalForm === "O" && licenceField === "kw":
-				writeLine('0500', physicalForm+"o"+cataloguingStatus); 
+				addLine(currentItemId, '\\n0500', physicalForm+"o"+cataloguingStatus); 
 				break;
 			default:
-				writeLine('0500', physicalForm+"o"+cataloguingStatus); // //z.B. Aou, Oou, Oox etc. 
+				addLine(currentItemId, '\\n0500', physicalForm+"o"+cataloguingStatus); // //z.B. Aou, Oou, Oox etc. 
 			}
-		
-		//item.type --> 0501 Inhaltstyp
-		writeLine("0501", "Text$btxt");
-		
-		//item.type --> 0502 Medientyp
-			switch (physicalForm) {
-				case "A":
-				writeLine("0502", "ohne Hilfsmittel zu benutzen$bn");
-				break;
-			case "O":
-				writeLine("0502", "Computermedien$bc");
-				break;
-			default:
-				writeLine("0502", "");
-		}
+        //item.type --> 0501 Inhaltstyp
+        addLine(currentItemId, "\\n0501", "Text$btxt");
 
-		//item.type --> 0503 Datenträgertyp
-		
-		switch (physicalForm) {
-				case "A":
-				writeLine("0503", "Band$bnc");
-				break;
-			case "O":
-				writeLine("0503", "Online-Ressource$bcr");
-				break;
-			default:
-				writeLine("0503", "");
-		}
-		//item.date --> 1100 
-		var date = Zotero.Utilities.strToDate(item.date);
-		if (date.year !== undefined) {
-		writeLine("1100", date.year.toString() + "$n[" + date.year.toString() + "]");
-		}
-		
-		//1130 Datenträger
-		//http://swbtools.bsz-bw.de/winibwhelp/Liste_1130.htm
-		
-			switch (physicalForm) {
-				case "A":
-				writeLine("1130", "druck");
-				break;
-			case "O":
-				writeLine("1130", "cofz");
-				break;
-			default:
-				writeLine("1130", "");
-		}
-		
-		//1131 Art des Inhalts
-		if (item.itemType == "magazineArticle") {
-				writeLine("1131", "!209083166!");
-			}
-		
-		// 1140 Veröffentlichungsart und Inhalt http://swbtools.bsz-bw.de/winibwhelp/Liste_1140.htm
-		if (item.itemType == "magazineArticle") {
-				writeLine("1140", "uwre");
-			}
-	
-		
-		//item.language --> 1500 Sprachcodes
-		if (item.language) {
-			if (languageMapping[(item.language)]) {
-				item.language = languageMapping[item.language];
-			}
-			writeLine("1500", item.language);
-		} else {
-			writeLine("1500", defaultLanguage);
-		}
-		
-		//1505 Katalogisierungsquelle
-		writeLine("1505", "$erda");
-		
-		//item.ISBN --> 2000 ISBN
-		if (item.ISBN) {
-			writeLine("2000", item.ISBN);
-		}
-		
-		//item.DOI --> 2051 bei "Oou" bzw. 2053 bei "Aou"
-		if (item.DOI) {
-			if (physicalForm === "O") {
-				writeLine("2051", item.DOI);
-			} else if (physicalForm === "A") {
-				writeLine("2053", item.DOI);
-			}
-		}
-				
-		
-	
-		//Titel, erster Autor --> 4000
-		var titleStatement = "";
-		if (item.shortTitle == "journalArticle") {
-			titleStatement += item.shortTitle;
-			if (item.title && item.title.length > item.shortTitle.length) {
-				titleStatement += "$d" + item.title.substr(item.shortTitle.length).replace(/^\s*:\s*/,'');
-			}
-		} else {
-			titleStatement += item.title.replace(/\s*:\s*/,'$d');
-		}
-		//Sortierzeichen hinzufügen, vgl. https://github.com/UB-Mannheim/zotkat/files/137992/ARTIKEL.pdf
-		if (item.language == "ger" || !item.language) {
-			titleStatement = titleStatement.replace(/^(Der|Die|Das|Des|Dem|Den|Ein|Eines|Einem|Eine|Einen|Einer) ([^@])/, "$1 @$2");
-		}
-		if (item.language == "eng" || !item.language) {
-			titleStatement = titleStatement.replace(/^(The|A|An) ([^@])/, "$1 @$2");
-		}
-		if (item.language == "fre" || !item.language) {
-			titleStatement = titleStatement.replace(/^(Le|La|Les|Des|Un|Une) ([^@])/, "$1 @$2");
-			titleStatement = titleStatement.replace(/^L'([^@])/, "L' @$1").replace(/^L’([^@])/, "L' @$1");;
-		}
+        //item.type --> 0502 Medientyp
+        switch (physicalForm) {
+            case "A":
+                addLine(currentItemId, "\\n0502", "ohne Hilfsmittel zu benutzen$bn");
+                break;
+            case "O":
+                addLine(currentItemId, "\\n0502", "Computermedien$bc");
+                break;
+            default:
+                addLine(currentItemId, "\\n0502", "");
+        }
+
+        //item.type --> 0503 Datenträgertyp
+
+        switch (physicalForm) {
+            case "A":
+                addLine(currentItemId, "\\n0503", "Band$bnc");
+                break;
+            case "O":
+                addLine(currentItemId, "\\n0503", "Online-Ressource$bcr");
+                break;
+            default:
+                addLine(currentItemId, "\\n0503", "");
+        }
+        //item.date --> 1100
+        var date = Zotero.Utilities.strToDate(item.date);
+        if (date.year !== undefined) {
+            addLine(currentItemId, "\\n1100", date.year.toString() + "$n[" + date.year.toString() + "]");
+        }
+
+        //1130 Datenträger
+        //http://swbtools.bsz-bw.de/winibwhelp/Liste_1130.htm
+
+        switch (physicalForm) {
+            case "A":
+                addLine(currentItemId, "\\n1130", "druck");
+                break;
+            case "O":
+                addLine(currentItemId, "\\n1130", "cofz");
+                break;
+            default:
+                addLine(currentItemId, "\\n1130", "");
+        }
+
+        //1131 Art des Inhalts
+        if (item.itemType == "magazineArticle") {
+            addLine(currentItemId, "\\n1131", "!209083166!");
+        }
+
+        // 1140 Veröffentlichungsart und Inhalt http://swbtools.bsz-bw.de/winibwhelp/Liste_1140.htm
+        if (item.itemType == "magazineArticle") {
+            addLine(currentItemId, "\\n1140", "uwre");
+        }
+
+
+        //item.language --> 1500 Sprachcodes
+        if (item.language) {
+            if (languageMapping[(item.language)]) {
+                    item.language = languageMapping[item.language];
+            }
+            addLine(currentItemId, "\\n1500", item.language);
+        } else {
+            addLine(currentItemId, "\\n1500", defaultLanguage);
+        }
+
+        //1505 Katalogisierungsquelle
+        addLine(currentItemId, "\\n1505", "$erda");
+
+        //item.ISBN --> 2000 ISBN
+        if (item.ISBN) {
+            addLine(currentItemId, "\\n2000", item.ISBN);
+        }
+
+        //item.DOI --> 2051 bei "Oou" bzw. 2053 bei "Aou"
+        if (item.DOI) {
+            if (physicalForm === "O") {
+                addLine(currentItemId, "\\n2051", item.DOI);
+            } else if (physicalForm === "A") {
+                addLine(currentItemId, "\\n2053", item.DOI);
+            }
+        }
+
+        //Autoren --> 3000, 3010
+        //Titel, erster Autor --> 4000
+        var titleStatement = "";
+        if (item.shortTitle == "journalArticle") {
+            titleStatement += item.shortTitle;
+            if (item.title && item.title.length > item.shortTitle.length) {
+                titleStatement += "$d" + item.title.substr(item.shortTitle.length).replace(/^\s*:\s*/,'');
+            }
+        } else {
+            titleStatement += item.title.replace(/\s*:\s*/,'$d');
+        }
+        //Sortierzeichen hinzufügen, vgl. https://github.com/UB-Mannheim/zotkat/files/137992/ARTIKEL.pdf
+        if (item.language == "ger" || !item.language) {
+            titleStatement = titleStatement.replace(/^(Der|Die|Das|Des|Dem|Den|Ein|Eines|Einem|Eine|Einen|Einer) ([^@])/, "$1 @$2");
+        }
+        if (item.language == "eng" || !item.language) {
+            titleStatement = titleStatement.replace(/^(The|A|An) ([^@])/, "$1 @$2");
+        }
+        if (item.language == "fre" || !item.language) {
+            titleStatement = titleStatement.replace(/^(Le|La|Les|Des|Un|Une) ([^@])/, "$1 @$2");
+            titleStatement = titleStatement.replace(/^L'([^@])/, "L' @$1");
+        }
 		if (item.language == "ita" || !item.language) {
 			titleStatement = titleStatement.replace(/^(La|Le|Lo|Gli|I|Il|Un|Una|Uno) ([^@])/, "$1 @$2");
-			titleStatement = titleStatement.replace(/^L'([^@])/, "L' @$1").replace(/^L’([^@])/, "L' @$1");;
+			titleStatement = titleStatement.replace(/^L'([^@])/, "L' @$1").replace(/^L’([^@])/, "L' @$1");
 		}
 		
 		if (item.language == "por" || !item.language) {
@@ -2479,136 +2493,218 @@ function doExport() {
 		if (item.language == "spa" || !item.language) {
 			titleStatement = titleStatement.replace(/^(El|La|Los|Las|Un|Una|Unos|Unas) ([^@])/, "$1 @$2");
 		}
-		
-		//Autoren --> 3000, 3010
 
-		var i = 0, content, creator;
-		while (item.creators.length>0) {
-			creator = item.creators.shift();
-			if (creator.creatorType == "author") {
-					content = creator.lastName + (creator.firstName ? ", " + creator.firstName : "");
-				}
-				if (i === 0) {
-					writeLine("3000", content + "$BVerfasserIn$4aut \n");
-					titleStatement += "$h" + (creator.firstName ? creator.firstName + " " : "") + creator.lastName;
-				} else {
-					writeLine("3010", content + "$BVerfasserIn$4aut \n");
-				}
-				i++;
-			}
-	
-		writeLine("4000", titleStatement);
-		//TODO: editors, other contributors...
-		//Ausgabe --> 4020
-		if (item.edition) {
-			writeLine("4020", item.edition);
-		}
-		
-		//Erscheinungsvermerk --> 4030
-		if (!article) {
-			var publicationStatement = "";
-			if (item.place) { publicationStatement += item.place; }
-			if (item.publisher) { publicationStatement +=  "$n" + item.publisher; }
-			writeLine("4030", publicationStatement);
-		}
-		
-		
-		//4070 $v Bandzählung $j Jahr $h Heftnummer $p Seitenzahl
-		if (item.itemType == "journalArticle" || item.itemType == "magazineArticle") {
-			var volumeyearissuepage = "";
+        var i = 0;
+        var creator;
+        while (item.creators.length>0) {
+            creator = item.creators.shift();
+
+            if (creator.creatorType == "author") {
+                var authorName = creator.lastName + (creator.firstName ? ", " + creator.firstName : "");
+
+                var code = 0;
+                if (i === 0) {
+                    code = "\\n3000";
+                    titleStatement += "$h" + (creator.firstName ? creator.firstName + " " : "") + creator.lastName;
+                } else {
+                    code = "\\n3010";
+                }
+
+                i++;
+
+                //Lookup für Autoren
+                if (authorName[0] != "!") {
+                    var lookupUrl = "http://swb.bsz-bw.de/DB=2.104/SET=70/TTL=1/CMD?SGE=&ACT=SRCHM&MATCFILTER=Y&MATCSET=Y&NOSCAN=Y&PARSE_MNEMONICS=N&PARSE_OPWORDS=N&PARSE_OLDSETS=N&IMPLAND=Y&NOABS=Y&ACT0=SRCHA&SHRTST=50&IKT0=1&TRM0=" + authorName +"&ACT1=*&IKT1=2057&TRM1=*&ACT2=*&IKT2=8977&TRM2=(theolog*|neutestament*|alttestament*|kirchenhist*|judais*|Religionswi*|pfarrer*)&ACT3=-&IKT3=8978-&TRM3=1[1%2C2%2C3%2C4%2C5%2C6%2C7%2C8][0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9][0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9]?"
+
+                    /*
+                    lookupUrl kann je nach Anforderung noch spezifiziert werden, im obigen Abfragebeispiel:
+                    suchen [und] (Person(Phrase: Nachname, Vorname) [PER]) " authorName "
+                    eingrenzen (Systematiknummer der SWD [SN]) *
+                    eingrenzen (Relationiertes Schlagwort in der GND [RLS]) theolog*
+                    ausgenommen (Relationierte Zeit in der GND [RLZ]) 1[1,2,3,4,5,6,7,8][0,1,2,3,4,5,6,7,8,9][0,1,2,3,4,5,6,7,8,9]
+
+                    IKT0=1 TRM0= für Persönlicher Name in Picafeld 100
+                    IKT1=2057 TRM1=3.* für GND-Systematik
+                    IKT2=8963 TRM2=theolog*    für Berufsbezeichnung 550
+                    IKT3=8991 TRM3=1[1,2,3,4,5,6,7,8][0,1,2,3,4,5,6,7,8,9][0,1,2,3,4,5,6,7,8,9] für Geburts- und Sterbedatum (Bereich)
+
+                    ###OPERATOREN vor "IKT"###
+                    UND-Verknüpfung "&" | ODER-Verknüpfung "%2B&" | Nicht "-&"
+
+                    ###TYP IKT=Indikatoren|Zweite Spalte Schlüssel(IKT)###
+                    Liste der Indikatoren und Routine http://swbtools.bsz-bw.de/cgi-bin/help.pl?cmd=idx_list_typ&regelwerk=RDA&verbund=SWB
+                    */
+
+                    // threadParams = globale Variablen die sich evtl ändern
+                    // während die async-Funktion processDocumentsCustom ausgeführt wird
+                    // und daher per Kopie übergeben werden müssen
+                    var threadParams = {
+                        "currentItemId" : currentItemId,
+                        "code" : code,
+                        "authorName" : authorName,
+                    };
+
+                    runningThreadCount++;
+                    processDocumentsCustom(lookupUrl,
+                        // processing callback function
+                        function(doc, url, threadParams){
+                            var ppn = Zotero.Utilities.xpathText(doc, '//small[a[img]]');
+                            if (ppn) {
+                                var authorValue = "!" + ppn.trim() + "!" + "$BVerfasserIn$4aut \\n8910 $aixzom$bAutor maschinell zugeordnet\\n";
+                                addLine(threadParams["currentItemId"], threadParams["code"], authorValue);
+                            } else {
+                                addLine(threadParams["currentItemId"], threadParams["code"], threadParams["authorName"]  + "$BVerfasserIn$4aut");
+                            }
+
+                            // separate onDone function not needed because we only call one url
+                            runningThreadCount--;
+                            if (runningThreadCount === 0) {
+                                for (key in authorMapping) {
+                                    var value = authorMapping[key];
+                                }
+                                WriteItems();
+                            }
+                        },
+                        threadParams,
+                        //onDone
+                        undefined,
+                        //onError
+                        function(e) {
+                            var message = "Error in external lookup: " + e.message;
+                            Zotero.debug(message);
+                            Zotero.write(message);
+                        }
+                    );
+                }
+            }
+
+            //TODO: editors, other contributors...
+        }
+
+        addLine(currentItemId, "\\n4000", titleStatement);
+
+        //Ausgabe --> 4020
+        if (item.edition) {
+            addLine(currentItemId, "\\n4020", item.edition);
+        }
+
+        //Erscheinungsvermerk --> 4030
+        if (!article) {
+            var publicationStatement = "";
+            if (item.place) { publicationStatement += item.place; }
+            if (item.publisher) { publicationStatement +=  "$n" + item.publisher; }
+            addLine(currentItemId, "\\n4030", publicationStatement);
+        }
+
+
+        //4070 $v Bandzählung $j Jahr $h Heftnummer $p Seitenzahl
+        if (item.itemType == "journalArticle" || item.itemType == "magazineArticle") {
+            var volumeyearissuepage = "";
 			if (item.volume) { volumeyearissuepage += "$v" + item.volume.replace("Tome ", "").replace(/\s\(Number\s\d+-?\d+\)/, ""); }
 			if (date.year !== undefined) { volumeyearissuepage +=  "$j" + date.year; }
 			if (item.issue) { volumeyearissuepage += "$h" + item.issue.replace("-", "/").replace(/^0/, ""); }
 			if (item.pages) { volumeyearissuepage += "$p" + item.pages; }
-			
-			writeLine("4070", volumeyearissuepage);
-		}
+
+            addLine(currentItemId, "\\n4070", volumeyearissuepage);
+        }
+
+        //URL --> 4085 nur bei Dokumenttyp "magazineArticle" für Rezension im Feld 0500
+        if (item.url && item.itemType == "magazineArticle") {
+            addLine(currentItemId, "\\n4085", "$u" + item.url + "$xH");
+        }
 		
-		//URL --> 4085 nur bei Katalogisierung nach "Oox" im Feld 0500
+		//URL --> 4085 nur bei Satztyp "O.." im Feld 0500
 		switch (true) {
 			case item.url && physicalForm === "O" && licenceField === "l":
-				writeLine("4085", "$u" + item.url + "$xH$zLF");
+				addLine(currentItemId, "\\n4085", "$u" + item.url + "$xH$zLF");
 				break;
 			case item.url && physicalForm === "O" && licenceField === "kw":
-				writeLine("4085", "$u" + item.url + "$xH$zKW");
+				addLine(currentItemId, "\\n4085", "$u" + item.url + "$xH$zKW");
 				break;
 			case item.url && physicalForm === "O":
-				writeLine("4085", "$u" + item.url + "$xH");
+				addLine(currentItemId, "\\n4085", "$u" + item.url + "$xH");
 				break;
-			case item.url && item.itemType === "magazineArticle":
-				writeLine("4085", "$u" + item.url + "$xH");
+			case item.url && item.itemType == "magazineArticle":
+				addLine(currentItemId, "\\n4085", "$u" + item.url + "$xH");
 				break;
 			}
-		
-		
-		
-		//Reihe --> 4110
-		if (!article) {
-			var seriesStatement = "";
-			if (item.series) {
-				seriesStatement += item.series;
-			}
-			if (item.seriesNumber) {
-				seriesStatement += " ; " + item.seriesNumber;
-			}
-			writeLine("4110", seriesStatement);
-		}
-		
-		//Inhaltliche Zusammenfassung -->4207
-		if (item.abstractNote) {
-			item.abstractNote = ZU.unescapeHTML(item.abstractNote);
-			writeLine("4207", item.abstractNote.replace("Zusammenfassung", "").replace(" Summary", "").replace("", "").replace(/–/g, '-').replace(/&#160;/g, "").replace(/"/g, '\\"')); 
-		}
-				
-		//item.publicationTitle --> 4241 Beziehungen zur größeren Einheit 
-		if (item.itemType == "journalArticle" || item.itemType == "magazineArticle") {
-			if (item.ISSN && journalMapping[ZU.cleanISSN(item.ISSN)]) {
-				writeLine("4241", "Enthalten in" + journalMapping[ZU.cleanISSN(item.ISSN)]);
-			} else if (item.publicationTitle) {
-				writeLine("4241", "Enthalten in"  + issnJournalTitleMapping[item.publicationTitle]);
-			}
-		
-		//4261 Themenbeziehungen (Beziehung zu der Veröffentlichung, die beschrieben wird)|case:magazineArticle
-		if (item.itemType == "magazineArticle") {
-				writeLine("4261", "Rezension von" + item.publicationTitle); // zwischen den Ausrufezeichen noch die PPN des rezensierten Werkes manuell einfügen.
-			}
-				
-		//SSG bzw. FID-Nummer --> 5056 "0" = Religionwissenschaft | "1" = Theologie | "0; 1" = RW & Theol.
-		
-		if (SsgField === "0" || SsgField === "0; 1" || SsgField === "FID-KRIM-DE-21") {
-			writeLine("5056", SsgField);
-		} 	else {
-			writeLine("5056", defaultSsgNummer);
-		}
+        //Reihe --> 4110
+        if (!article) {
+            var seriesStatement = "";
+            if (item.series) {
+                seriesStatement += item.series;
+            }
+            if (item.seriesNumber) {
+                seriesStatement += " ; " + item.seriesNumber;
+            }
+            addLine(currentItemId, "\\n4110", seriesStatement);
+        }
 
-		
-		
-		if (item.itemType == "journalArticle" || item.itemType == "magazineArticle") {
-			writeLine ("",lokaldatensatz);
-		}
-	//Schlagwörter aus einem Thesaurus (Fremddaten) --> 5520 (oder alternativ siehe Mapping)
-                if (item.ISSN && issnKeywordMapping[ZU.cleanISSN(item.ISSN)]) {
-                        var ISSNclean = ZU.cleanISSN(item.ISSN);
-                        var codeBase = issnKeywordMapping[ISSNclean];
-                        for (i=0; i<item.tags.length; i++) {
-                                var code = codeBase + i;
-                                writeLine(code, "|s|" + item.tags[i].tag.replace(/\s?--\s?/g, '; ').replace(/\s?,\s?/g, '; '));
-                        }
-                } else {
-                        for (i=0; i<item.tags.length; i++) {
-                                //writeLine("5520", "|s|" + item.tags[i].tag.replace(/\s?--\s?/g, '; ').replace(/\s?,\s?/g, '; ').replace(/\s?\.\s?/g, '; '));
-								writeLine("5520", "|s|" + item.tags[i].tag.replace(/\s?--\s?/g, '; '));
-                        }
-                }	
-		}
-		outputText;
-	}
-	count--;
-	if (count === 0) {
-		Zotero.write(outputText);
-	}
+        //Inhaltliche Zusammenfassung --> 4207
+        if (item.abstractNote) {
+            addLine(currentItemId, "\\n4207", item.abstractNote.replace("<i>", "\'").replace("</i>", "\'").replace("<br/>", "").replace("Zusammenfassung", "").replace(" Summary", ""));
+        }
+
+        //item.publicationTitle --> 4241 Beziehungen zur größeren Einheit
+        if (item.itemType == "journalArticle" || item.itemType == "magazineArticle") {
+            if (item.ISSN && journalMapping[ZU.cleanISSN(item.ISSN)]) {
+                addLine(currentItemId, "\\n4241", "Enthalten in" + journalMapping[ZU.cleanISSN(item.ISSN)]);
+            } else if (item.publicationTitle) {
+                addLine(currentItemId, "\\n4241", "Enthalten in"  + issnJournalTitleMapping[item.publicationTitle]);
+            }
+
+            //4261 Themenbeziehungen (Beziehung zu der Veröffentlichung, die beschrieben wird)|case:magazineArticle
+            if (item.itemType == "magazineArticle") {
+                addLine(currentItemId, "\\n4261", "Rezension von" + item.publicationTitle); // zwischen den Ausrufezeichen noch die PPN des rezensierten Werkes manuell einfügen.
+            }
+
+            //SSG bzw. FID-Nummer --> 5056 "0" = Religionwissenschaft | "1" = Theologie | "0; 1" = RW & Theol.
+
+            if (SsgField === "0" || SsgField === "0; 1" || SsgField === "FID-KRIM-DE-21") {
+                addLine(currentItemId, "\\n5056", SsgField);
+            } else {
+                addLine(currentItemId, "\\n5056", defaultSsgNummer);
+            }
+
+            //Schlagwörter aus einem Thesaurus (Fremddaten) --> 5520 (oder alternativ siehe Mapping)
+            if (item.ISSN && issnKeywordMapping[ZU.cleanISSN(item.ISSN)]) {
+                var ISSNclean = ZU.cleanISSN(item.ISSN);
+                var codeBase = issnKeywordMapping[ISSNclean];
+                for (i=0; i<item.tags.length; i++) {
+                    var code = codeBase + i;
+                    addLine(currentItemId, code, "|s|" + item.tags[i].tag.replace(/\s?--\s?/g, '; '));
+                }
+            } else {
+                for (i=0; i<item.tags.length; i++) {
+                    addLine(currentItemId, "\\n5520", "|s|" + item.tags[i].tag.replace(/\s?--\s?/g, '; '));
+                }
+            }
+
+            if (item.itemType == "journalArticle") {
+                addLine(currentItemId, "", "");
+                addLine(currentItemId, "", "");
+                addLine(currentItemId, '\\nE* l01\\n7100$jn\\n8002 ixzs;ixzo");\napplication.activeWindow.pressButton("Enter");\n\n', "");
+            }
+        }
+    }
+
+    runningThreadCount--;
+    if (runningThreadCount === 0) {
+        WriteItems();
+    }
 }
 
+// this should be called at end of each element,
+// and also when all async calls are finished (only when runningThreadCount == 0)
+function WriteItems() {
+    itemsOutputCache.forEach(function(element, index) {
+        // sort first, codes might be unsorted due to async stuff
+        element.sort();
 
-
-
+        // implode + write
+        if(index > 0) {
+            Zotero.write("\n");
+        }
+        Zotero.write('application.activeWindow.command("e", false);\napplication.activeWindow.title.insertText("' + element.join("") + "\n");
+    });
+}

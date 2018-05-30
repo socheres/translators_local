@@ -1,15 +1,15 @@
 {
 	"translatorID": "4c164cc8-be7b-4d02-bfbf-37a5622dfd56",
-	"translatorType": 4,
 	"label": "The New York Review of Books",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://www\\.nybooks\\.com/",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-07-02 14:40:20"
 }
 
 /*

@@ -1,15 +1,15 @@
 {
 	"translatorID": "3eabecf9-663a-4774-a3e6-0790d2732eed",
-	"translatorType": 4,
 	"label": "SciELO",
 	"creator": "Sebastian Karcher",
 	"target": "^https?://(www\\.)?(socialscience\\.|proceedings\\.|biodiversidade\\.|caribbean\\.|comciencia\\.|inovacao\\.|search\\.)?(scielo|scielosp)\\.",
 	"minVersion": "2.1.9",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-06-26 13:10:00"
+	"lastUpdated": "2017-06-24 11:53:49"
 }
 
 /*

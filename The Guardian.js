@@ -9,7 +9,7 @@
 	"priority": 100,
 	"inRepository": true,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2018-04-26 08:15:00"
 }
 
 /*
@@ -37,7 +37,7 @@
 
 
 function detectWeb(doc, url) {
-	if (ZU.xpathText(doc, '//div[contains(@class, "content__main-column")]/h1')) {
+	if (ZU.xpathText(doc, '//div[contains(@class, "content__main-column")]//h1')) {
 		return "newspaperArticle";
 	} else if (getSearchResults(doc, true)) {
 		return "multiple";
@@ -47,8 +47,7 @@ function detectWeb(doc, url) {
 function getSearchResults(doc, checkOnly) {
 	var items = {};
 	var found = false;
-	//TODO test this path
-	var rows = ZU.xpath(doc, '//td/div[contains(@class, "gs-title")]/a[@class="gs-title" and contains(@href, "20")]');
+	var rows = ZU.xpath(doc, '//a[@data-link-name="article"]');
 	for (var i=0; i<rows.length; i++) {
 		var href = rows[i].href;
 		var title = ZU.trimInternal(rows[i].textContent);

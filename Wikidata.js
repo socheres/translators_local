@@ -1,15 +1,15 @@
 {
 	"translatorID": "eaef8d43-2f17-45b3-a5cb-affb49bc5e81",
-	"translatorType": 4,
 	"label": "Wikidata",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://(www\\.)?wikidata\\.org/wiki/Q",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-06 13:15:00"
+	"lastUpdated": "2017-07-06 12:03:00"
 }
 
 /*

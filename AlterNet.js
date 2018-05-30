@@ -635,6 +635,7 @@ FW.doWeb = function (doc, url) {
                       });
     Zotero.wait();
 };
+
 /*********************** END FRAMEWORK ***********************/
 
 
@@ -702,7 +703,7 @@ var testCases = [
 						"creatorType": "author"
 					}
 				],
-				"date": "October 19, 2011",
+				"date": "October 19, 2011, 8:00 PM GMT",
 				"abstractNote": "We've ranked the banks based on how shamelessly they game the political process through lobbying, revolving door politics and campaign donations.",
 				"libraryCatalog": "AlterNet",
 				"publicationTitle": "AlterNet",

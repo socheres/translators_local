@@ -1,15 +1,15 @@
 {
 	"translatorID": "3bdaeab1-2200-4e18-a68a-430d1cd50d21",
-	"translatorType": 4,
 	"label": "The Daily Beast",
 	"creator": "Philipp Zumstein",
 	"target": "^https?://(.*)thedailybeast\\.com",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2017-07-15 21:20:00"
+	"lastUpdated": "2017-06-30 06:10:12"
 }
 
 /*
